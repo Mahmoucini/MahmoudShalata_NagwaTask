@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Step to Success school">
+    <meta name="keywords" content="Step to Success school">
+    <meta name="og:type" content="website">
+    <meta name="og:title" content="Step to Success school">
+    <meta name="og:description" content="Step to Success school">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta property="og:image" content="assets/images/logo.png">
+    <title>Step to Success school</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header--wrapper">
+                <a href="#" class="logo--wrapper">
+                    <img src="assets/images/logo.png" alt="Logo" />
+                    <span class="logo--title">
+                        Step to Success school
+                    </span>
+                </a>
+                <div class="header--actions-wrapper">
+                    <div class="btn-group">
+                        <button type="button" class="bell-btn active" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="bell-btn--inner">
+                                <i class="far fa-bell"></i>
+                            </span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">Notification</button></li>
+                            <li><button class="dropdown-item" type="button">Notification</button></li>
+                            <li><button class="dropdown-item" type="button">Notification</button></li>
+                            <li><button class="dropdown-item" type="button">Notification</button></li>
+                            <li><button class="dropdown-item" type="button">Notification</button></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="user-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="bell-btn--inner">
+                                <i class="far fa-user"></i>
+                            </span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><button class="dropdown-item" type="button">User Action</button></li>
+                            <li><button class="dropdown-item" type="button">User Action</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <section class="child-section">
+            <div class="container">
+                <div class="child-section--wrapper">
+                    <div class="child-section--active-child">
+                        <img src="content/images/child-1.jpg" alt="" />
+                        <span>Adam</span>
+                    </div>
+                    <div class="child-section--select-child">
+                        <div class="btn-group">
+                            <button type="button" class="select-child--dropdown-btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="select-child--dropdown-btn-inner">
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end select-child--dropdown-menu">
+                                <li>
+                                    <a href="#" class="select-child--btn">
+                                        <img src="content/images/child-2.jpg" alt="" />
+                                        <span>Maged</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="select-child--btn active">
+                                        <img src="content/images/child-1.jpg" alt="" />
+                                        <span>Adam</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="select-child--btn">
+                                        <img src="content/images/child-3.jpg" alt="" />
+                                        <span>Nabil</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="select-child--add-btn">
+                                        <i class="fas fa-user-plus"></i>
+                                        <span>Add Child</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="statistics-section">
+            <div class="container">
+                <h2>Statistics</h2>
+                <div class="section-inner-wrapper">
+                    <div class="statistics-section--list">
+                        <div class="statistics-section--item">
+                            <div class="pie animate" style="--p:81;--c:#4A3274"> 81%</div>
+                            <h4>32 out of 40</h4>
+                            <h3>Solved Homework</h3>
+                        </div>
+                        <div class="statistics-section--item">
+                            <div class="pie animate" style="--p:50;--c:#739500"> 50%</div>
+                            <h4>45 out of 90</h4>
+                            <h3>Attended Days</h3>
+                        </div>
+                        <div class="statistics-section--item">
+                            <div class="pie animate" style="--p:93;--c:#950086"> 93%</div>
+                            <h4>8 out of 11</h4>
+                            <h3>Online Sessions attended</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homework-section">
+            <div class="container">
+                <h2>Homework</h2>
+                <div class="section-inner-wrapper">
+                    <canvas id="myChart" style="max-height:300px;"></canvas>
+                </div>
+            </div>
+        </section>
+        <section class="attendence-section">
+            <div class="container">
+                <h2>Attendence</h2>
+                <div class="section-inner-wrapper">
+                    <div class="cal-wrapper">
+                        <ul class="weekdays">
+                            <li>Sun</li>
+                            <li>Mon</li>
+                            <li>Tue</li>
+                            <li>Wed</li>
+                            <li>Thu</li>
+                            <li>Fri</li>
+                            <li>Sat</li>
+                        </ul>
+
+                        <ul class="days">
+                            <li></li>
+                            <li></li>
+                            <li><span>1</span></li>
+                            <li><span>2</span></li>
+                            <li><span>3</span></li>
+                            <li><span class="off">4</span></li>
+                            <li><span class="off">5</span></li>
+                            <li><span>6</span></li>
+                            <li><span>7</span></li>
+                            <li><span>8</span></li>
+                            <li><span>9</span></li>
+                            <li><span>10</span></li>
+                            <li><span class="off">11</span></li>
+                            <li><span class="off">12</span></li>
+                            <li><span class="absent">13</span></li>
+                            <li><span>14</span></li>
+                            <li><span>15</span></li>
+                            <li><span>16</span></li>
+                            <li><span>17</span></li>
+                            <li><span class="off">18</span></li>
+                            <li><span class="off">19</span></li>
+                            <li><span class="absent">20</span></li>
+                            <li><span>21</span></li>
+                            <li><span class="absent">22</span></li>
+                            <li><span>23</span></li>
+                            <li><span>24</span></li>
+                            <li><span class="off">25</span></li>
+                            <li><span class="off">26</span></li>
+                            <li><span class="absent">27</span></li>
+                            <li><span>28</span></li>
+                            <li><span>29</span></li>
+                            <li><span>30</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gradebook-section">
+            <div class="container">
+                <h2>Gradebook</h2>
+                <div class="section-inner-wrapper">
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <img src="assets/images/nagwa-logo.svg" />
+                <p>Copyright © 2022 Nagwa All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
